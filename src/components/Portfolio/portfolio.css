@@ -1,0 +1,92 @@
+/* PORTFOLIO */
+
+#portfolio {
+  margin-top: 150px;
+  background-color: rgb(68, 24, 68);
+}
+
+.port-header {
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+}
+
+.port-header:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #e40fcf;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.port-header:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.portfolio-header {
+  color: white;
+}
+
+/* --------------------------------------------- */
+/* CARD  */
+
+.card {
+  width: 18rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border-color: rgba(185, 31, 185, 0.888) !important;
+  border-width: 2px;
+  border-radius: 10px;
+  background-color: transparent !important;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.repo-link {
+  margin-left: 55px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 15px 20px 20px #2de2e6 !important;
+}
+
+.card-title {
+  font-weight: 700;
+}
+/* --------------------------------------------- */
+/* 1ST RTOW OF CARDS  */
+
+.first-row {
+  margin-top: 90px;
+}
+
+/* --------------------------------------------- */
+
+/* SECOND ROW OF CARDS */
+
+.second-row {
+  margin-top: 50px;
+}
+
+.btn {
+  /* margin-left: 70px; */
+  color: white !important;
+  border-color: #e62daf !important;
+  background-color: transparent;
+}
+
+.btn:hover {
+  background-color: #2de2e6 !important;
+  color: black !important;
+  border-color: transparent !important;
+}
+
+.card-img-top {
+  width: 100%;
+}

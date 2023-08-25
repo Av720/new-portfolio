@@ -1,0 +1,48 @@
+#footer {
+  text-align: center;
+  /* background-image: url(/images/header-pic.jpg); */
+  padding: 5px;
+  background-color: rgb(68, 24, 68);
+}
+
+.icons {
+  color: white;
+  padding: 10px 20px 20px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.7s ease;
+}
+
+.icons-div {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.icons:hover {
+  color: #a71fa9;
+  -webkit-transform: scale(1.6);
+  transform: scale(1.8);
+}
+
+footer h3 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
+@keyframes drop-in {
+  from {
+    transform: rotate(-30deg) translateY(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: rotate(0deg) translateY(0%);
+    opacity: 1;
+  }
+}
+
+.footer-txt {
+  animation: drop-in 1000ms;
+}

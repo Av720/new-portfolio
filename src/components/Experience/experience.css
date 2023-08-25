@@ -1,0 +1,102 @@
+#experience {
+  background-color: rgb(68, 24, 68);
+}
+
+.main-header {
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.header-text {
+  padding-top: 100px;
+  text-align: center;
+}
+.header-text:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #e40fcf;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.header-text:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.languages {
+  /* border: 1px solid purple; */
+  text-align: center;
+  margin-top: 70px;
+  width: 20%;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  margin-bottom: 60px;
+}
+
+.languages:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.lang-text {
+  margin-top: 10px;
+  color: white;
+
+  text-align: center;
+}
+.experience-txt {
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+}
+
+.lang-logo {
+  width: 30%;
+}
+
+.first-exp-row {
+  margin-left: 250px;
+}
+
+.second-exp-row {
+  margin-left: 240px;
+}
+
+.mongo {
+  width: 50%;
+  background-image: none;
+}
+
+.html:hover {
+  box-shadow: 5px 5px 60px #e44d26 !important;
+}
+
+.css:hover {
+  box-shadow: 5px 5px 60px #039be5 !important;
+}
+.js:hover {
+  box-shadow: 5px 5px 60px #ffd600 !important;
+}
+.react:hover {
+  box-shadow: 5px 5px 60px #00d8ff !important;
+}
+.express:hover {
+  box-shadow: 5px 5px 60px #ffffff !important;
+}
+.node:hover {
+  box-shadow: 5px 5px 60px #8cc84b !important;
+}
+.mongo:hover {
+  box-shadow: 5px 5px 60px #00684a !important;
+}
+
+.mysql:hover {
+  box-shadow: 5px 5px 60px #f98a3b !important;
+}

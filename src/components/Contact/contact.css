@@ -1,0 +1,109 @@
+#contact-me {
+  background-color: rgb(68, 24, 68);
+}
+.contactme-text {
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+  padding-top: 80px;
+}
+
+.contactme-text:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #e40fcf;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.contactme-text:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.contact-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contact-text {
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+}
+
+.error {
+  color: rgb(255, 0, 68);
+}
+
+.submit-btn {
+  margin-top: 20px;
+  width: 100px;
+  height: 50px;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: white;
+  border-color: #e62daf;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+.submit-btn:hover {
+  background-color: #2de2e6;
+  color: black;
+  border-color: transparent;
+  box-shadow: 4px 4px 50px #2de2e6 !important;
+}
+
+/* FORM  */
+
+.name-field,
+.email-field {
+  color: white;
+  background-color: transparent;
+  width: 500px;
+  height: 60px;
+  border: 2px solid #e62daf;
+  border-radius: 5px;
+}
+
+.message-field {
+  color: white;
+  margin-top: 20px;
+  background-color: transparent;
+
+  width: 500px;
+  height: 200px;
+  border: 2px solid #e62daf;
+  border-radius: 5px;
+}
+
+.name-field {
+  margin-top: 20px;
+}
+
+.email-field {
+  margin-top: 20px;
+}
+
+.message-success {
+  color: green;
+}
+
+.message-error {
+  color: white;
+  background-color: red;
+}
+
+.message-normal {
+  color: black;
+}
+
+.confirmation-message {
+  padding: 10px;
+}

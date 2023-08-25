@@ -1,0 +1,32 @@
+/* HEADER */
+
+.header {
+    color: white;
+    padding: 0px 10px;
+    font-family: "Permanent Marker", cursive;
+
+
+
+}
+
+.header {
+    animation: myAnimation 20s ease-in-out infinite alternate;
+}
+
+.header ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+
+}
+
+
+.header div {
+    padding-top: 60px;
+    margin-right: 60px;
+    float: right;
+    font-family: "Permanent Marker", cursive;
+    font-size: 20px;
+
+}
+
