@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.e2a6375f.css",
+    "main.js": "/React-Portfolio/static/js/main.2a8f2c9e.js",
+    "static/media/travelbuddy.png": "/React-Portfolio/static/media/travelbuddy.8b210ee8f2a7350a9b88.png",
+    "static/media/profile.png": "/React-Portfolio/static/media/profile.e366173faba615755167.png",
+    "static/media/mercury.png": "/React-Portfolio/static/media/mercury.02bf50a2d6c40b299020.png",
+    "static/media/weatherdash.png": "/React-Portfolio/static/media/weatherdash.5ff91ff845974e812e33.png",
+    "static/media/passwordgen.png": "/React-Portfolio/static/media/passwordgen.f3a2b5b569b41538b47a.png",
+    "static/media/react.png": "/React-Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/coding.jpg": "/React-Portfolio/static/media/coding.2f7bcada18df3c3db82d.jpg",
+    "static/media/codequiz.png": "/React-Portfolio/static/media/codequiz.cadccf46b8e703e1c6bb.png",
+    "static/media/notetaker.png": "/React-Portfolio/static/media/notetaker.0a9c00be578ebc9cc8c7.png",
+    "static/media/node.png": "/React-Portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/resume.pdf": "/React-Portfolio/static/media/resume.b90c3bb969a15f017c49.pdf",
+    "static/media/mongodb.png": "/React-Portfolio/static/media/mongodb.1bf4992d5af908853385.png",
+    "static/media/html.png": "/React-Portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/React-Portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/mysql.png": "/React-Portfolio/static/media/mysql.01a9f618f56bd568a41a.png",
+    "static/media/express.png": "/React-Portfolio/static/media/express.1182731d0fa4994589eb.png",
+    "static/media/javascript.png": "/React-Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.e2a6375f.css.map": "/React-Portfolio/static/css/main.e2a6375f.css.map",
+    "main.2a8f2c9e.js.map": "/React-Portfolio/static/js/main.2a8f2c9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2a6375f.css",
+    "static/js/main.2a8f2c9e.js"
+  ]
+}
